@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using WebApplicationExemplo01.Data;
 
 namespace WebApplicationExemplo01
 {
@@ -41,8 +42,9 @@ namespace WebApplicationExemplo01
             app.UseRouting();
             app.UseAuthorization();
             app.MapRazorPages();
-
             app.Run();
+
+
         }
     }
 }
